@@ -1,0 +1,439 @@
+body{
+			
+			position: absolute;
+			width: 1440px;
+			height: 2504px;
+			left: -1px;
+			top: 0px;
+			background: #1C1C1C;
+}
+		
+.left{
+			position: absolute;
+			width: 249px;
+			height: 87px;
+			left: 45px;
+			top: 18px;
+	}
+		
+.right{
+			position: absolute;
+			width: 43px;
+			height: 26px;
+			left: 1350px;
+			top: 48px;
+
+	}
+		.mid{
+			position: absolute;
+			width: 43px;
+			height: 4px;
+			left: 666px;
+			top: 100px;
+			color: #F8722B;
+			/*background: #F8722B;*/
+		}
+		.navbar{
+			background-color: black;
+			
+			font-family: Poppins;
+		}
+		/*.navbar ul{
+			overflow: auto;
+			font-family: Poppins;
+		}*/
+	
+		.Home{
+position: absolute;
+list-style: none;
+width: 90px;
+height: 45px;
+left: 607px;
+top: 41px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+		} 
+		.Schedule{
+
+list-style: none;
+position: absolute;
+width: 140px;
+height: 45px;
+left: 737px;
+top: 41px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+		} 
+		.navbar li a{
+			padding: 3px 3px;
+			text-decoration: none;
+			color: white;
+			font-family: Poppins;
+		}
+	
+	h3{
+			/* Welcome to the world of Gaming */
+
+text-align: center;
+position: absolute;
+width: 318px;
+height: 72px;
+left: 559px;
+top: 890px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+		}
+		.esports1{
+			position: absolute;
+width: 1401px;
+height: 686px;
+left: 18px;
+top: 152px;
+
+background: url(esports1.png);
+border: 1px solid #525252;
+box-sizing: border-box;
+		}
+.play{
+			position: absolute;
+width: 84px;
+height: 84px;
+left: 678px;
+top: 474px;
+
+		}
+
+.box1 .mail{
+	
+	border-bottom-color:#F8722B;
+	position: absolute;
+width: 985px;
+height: 92px;
+left: 227px;
+top: 1145px;
+font-size: 40px;
+font-family: Poppins;
+color: white;
+background: #303030;
+}
+.box1 .mail:focus + .label1{
+	display: none;
+	outline: none;
+	border: none;
+}
+.box1 .mail:valid + .label1{
+	display: none;
+	outline: none;
+}
+.box1 .label1{
+	position: absolute;
+width: 223px;
+height: 45px;
+left: 268px;
+top: 1168px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+color: #FFFFFF;
+outline: none;
+border: none;
+border-bottom-color:#F8722B;
+
+}
+
+.box2 .pass{
+	
+	border-bottom-color:#F8722B;
+	position: absolute;
+width: 985px;
+height: 92px;
+left: 227px;
+top: 1272px;
+font-size: 40px;
+font-family: Poppins;
+color: white;
+background: #303030;
+}
+.box2 .pass:focus + .label2{
+	display: none;
+}
+.box2 .pass:valid + .label2{
+	display: none;
+}
+.box2 .label2{
+	position: absolute;
+width: 252px;
+height: 45px;
+left: 268px;
+top: 1302px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+color: #FFFFFF;
+
+}
+#sb1{
+	position: absolute;
+width: 345px;
+height: 62px;
+left: 532px;
+top: 1475px;
+
+background: #F8722B;
+border-radius: 11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+border: none;
+}
+
+.Vector{
+	position: absolute;
+width: 1085px;
+height: 154.02px;
+left: 222px;
+top: 1730px;
+
+/*background: #F8722B;
+*/}
+.btm{
+	position: absolute;
+width: 1132px;
+height: 220px;
+right: 154px;
+top: 1630px;
+/*top: calc(50% - 220px/2 + 801px);*/
+
+
+box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.05);
+border-radius: 24px;
+}
+
+.query{
+
+
+position: absolute;
+width: 366px;
+height: 30px;
+left: 258px;
+top: 1674px;
+
+background: #FFFFFF;
+border: 1px solid #F8722B;
+box-sizing: border-box;
+}
+
+.query1{
+	position: absolute;
+width: 366px;
+height: 74px;
+left: 257px;
+top: 1725px;
+
+background: #FFFFFF;
+border: 1px solid #F8722B;
+box-sizing: border-box;
+}
+
+.submit{
+	position: absolute;
+width: 269px;
+height: 47px;
+left: 869px;
+top: 1694px;
+
+background: #F8722B;
+border-radius: 11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+border: none;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.ofc{
+	position: absolute;
+height: 198px;
+left: 1026px;
+right: 144px;
+top: 1800px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 24px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+color: #FFFFFF;
+}
+
+.addr{
+	position: absolute;
+height: 200px;
+left: 1026px;
+right: 144px;
+top: 1900px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+/* or 100% */
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+color: #FFFFFF;
+}
+
+.ctus{
+position: absolute;
+height: 140px;
+left: 523px;
+right: 482px;
+top: 1900px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 24px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+color: #FFFFFF;	
+}
+
+.ctn{
+position: absolute;
+height: 140px;
+left: 523px;
+right: 482px;
+top: 1951px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+
+color: #FFFFFF;	
+}
+
+#sh{
+	position: absolute;
+width: 231px;
+height: 36px;
+left: 170px;
+top: 1923px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.Group12{
+
+position: absolute;
+width: 103px;
+height: 35.17px;
+left: 226px;
+top: 1993.11px;
+}
+
+.line{
+	position: absolute;
+width: 1184px;
+height: 6px;
+left: 136px;
+top: 2144px;
+
+background: #F8722B;
+}
+.copy{
+	position: absolute;
+width: 208px;
+height: 27px;
+left: 617px;
+top: 2193px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #F8722B;
+
+}
+
+
+
+
