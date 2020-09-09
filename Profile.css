@@ -1,0 +1,102 @@
+body{
+			
+			position: absolute;
+			width: 1400px;
+			height: 1904px;
+			left: -1px;
+			top: 0px;
+			background: #1C1C1C;
+}
+		
+.left{
+			position: absolute;
+			width: 249px;
+			height: 87px;
+			left: 45px;
+			top: 18px;
+	}
+
+.right{
+
+position: absolute;
+width: 169px;
+height: 47px;
+left: 1162px;
+top: 32px;
+
+background: #F8722B;
+border-radius: 11px;
+font-family: Poppins;
+align-content: center;
+}
+		
+
+		.navbar{
+			background-color: black;
+			
+			font-family: Poppins;
+
+		}
+		.bar{
+			position: absolute;
+			width: 1512px;
+			height: 125px;
+			left: -6px;
+			top: -10px;
+
+			background: #0A0A0A;
+			opacity: 0.85;
+		}
+		
+	.navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline #F8722B;
+        color: #F8722B;
+
+    }
+		.Home{
+position: absolute;
+list-style: none;
+width: 90px;
+height: 45px;
+left: 567px;
+top: 11px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+		} 
+		.Schedule{
+
+list-style: none;
+position: absolute;
+width: 140px;
+height: 45px;
+left: 687px;
+top: 11px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+		} 
+		.navbar li a{
+			padding: 3px 3px;
+			text-decoration: none;
+			color: white;
+			font-family: Poppins;
+		}

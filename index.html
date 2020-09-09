@@ -3,13 +3,19 @@
 <head>
 	<title>KnightMobs</title>
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	 <link rel="icon" type="image/ico" href="images/logo.png">
+	<!-- <link rel="stylesheet" type="text/css" href="Hamburger.css"> -->
 	<style type="text/css">
-		
+		∗{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+
+		}
 		body{
-			
 			position: absolute;
 			width: 1430px;
-			height: 7783px;
+			height: 6353px;
 			left: -1px;
 			top: 0px;
 
@@ -18,54 +24,42 @@
 		}
 		.left{
 			position: absolute;
-width: 249px;
-height: 87px;
-left: 45px;
-top: 18px;
+            width: 249px;
+			height: 87px;
+			left: 45px;
+			top: 18px;
 		}
-		.right{
-			position: absolute;
-width: 43px;
-height: 26px;
-left: 1350px;
-top: 48px;
-
-		}
-		.mid{
-			position: absolute;
-			width: 43px;
-			height: 4px;
-			left: 666px;
-			top: 100px;
-			color: #F8722B;
-			/*background: #F8722B;*/
-		}
-		.navbar{
+		
+		
+		.navbar {
 			background-color: black;
-			
+			width: 100%;
 			font-family: Poppins;
 		}
-		/*.navbar ul{
-			overflow: auto;
-			font-family: Poppins;
-		}*/
+		
 	
-		.Home{
-position: absolute;
+	.navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline solid #F8722B;
+        text-decoration-style: solid;
+		transition: 0.5s;        
+        color: #F8722B;
+
+    }	
+
+	.Home{
+   position: absolute;
 list-style: none;
 width: 90px;
 height: 45px;
 left: 607px;
 top: 41px;
-
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
 line-height: 45px;
 /* identical to box height */
-
-
 color: #FFFFFF;
 
 		} 
@@ -99,24 +93,21 @@ color: #FFFFFF;
 
 	
 	h3{
-			/* Welcome to the world of Gaming */
-
+			
+/* Welcome to the world of Gaming */
 text-align: center;
 position: absolute;
 width: 1342px;
-height: 108px;
+height: 100px;
 margin-left: 78px;
 top: 264px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 62px;
-line-height: 108px;
-/* identical to box height */
-
+font-size: 52px;
+line-height: 100px;
 text-transform: uppercase;
-
 color: #FFFFFF;
 		}
 		.esports1{
@@ -125,33 +116,40 @@ width: 1401px;
 height: 686px;
 left: 18px;
 top: 152px;
-
 background: url(esports1.png);
-border: 1px solid #525252;
+/*border: 1px solid #525252;*/
+border: none;
 box-sizing: border-box;
 		}
+		.play{
+			position: absolute;
+width: 84px;
+height: 84px;
+left: 678px;
+top: 474px;
+}
 		.about{
 position: absolute;
-width: 1440px;
+width: 1510px;
 height: 200px;
 left: 0px;
 top: 898px;
 
-background: url(adobestock_256308615jpeg_48170.jpg);
+/*background: url(adobestock_256308615jpeg_48170.jpg);*/
 opacity: 0.92;
 		}
 h4 {
 			
 position: absolute;
 width: 366px;
-height: 100px;
-left: 40px;
+height: 80px;
+left: 60px;
 margin-top: 5px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 800;
-font-size: 64px;
-line-height: 96px;
+font-size: 44px;
+line-height: 66px;
 color: #F8722B;
 
 		}
@@ -166,11 +164,11 @@ background: #000000;
 opacity: 0.8;
 border-radius: 16px;
 		}
-		.midright{
+.midright{
 			position: absolute;
 width: 618px;
 height: 593px;
-left: 747px;
+left: 807px;
 top: 1180px;
 
 background: url(videogames1.jpg);
@@ -178,8 +176,8 @@ background: url(videogames1.jpg);
 
 .text1{
 	position: absolute;
-width: 564px;
-height: 216px;
+width: 620px;
+height: 360px;
 left: 67px;
 top: 1127px;
 
@@ -188,43 +186,28 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 36px;
-text-transform: lowercase;
+text-align: justify;
 
 color: #FFFFFF;
 }
 .text2{
 	position: absolute;
-width: 589px;
-height: 180px;
+width: 620px;
+height: 324px;
 left: 67px;
-top: 1357px;
+top: 1514px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 36px;
-text-transform: lowercase;
+text-align: justify;
 
 color: #FFFFFF;
 }
 
-.text3{
-	position: absolute;
-width: 589px;
-height: 180px;
-left: 67px;
-top: 1575px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-text-transform: lowercase;
-
-color: #FFFFFF;
-}
 
 .visionbox{
 position: absolute;
@@ -239,16 +222,17 @@ border-radius: 16px;
 
 }
 #vision{
-	position: absolute;
-width: 209px;
+	
+position: absolute;
+width: 542px;
 height: 96px;
-left: 60px;
-margin-top: 2px;
+left: 9px;
+margin-top:3px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 800;
-font-size: 64px;
+font-size: 44px;
 line-height: 96px;
 /* identical to box height */
 
@@ -257,7 +241,7 @@ color: #F8722B;
 }
 .visionimg{
 	position: absolute;
-width: 1457px;
+width: 1517px;
 height: 200px;
 left: -4px;
 top: 1853px;
@@ -274,19 +258,37 @@ top: 2105px;
 
 background: url(photo-1542751371-adc38448a05e.jpg);
 }
-.text4{
+.text3{
 	position: absolute;
 width: 564px;
+height: 72px;
+left: 754px;
+top: 2088px;
+
+font-family: Poppins;
+font-style: italic;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.text4{
+
+position: absolute;
+width: 589px;
 height: 216px;
 left: 754px;
-top: 2070px;
+top: 2219px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 36px;
-text-transform: lowercase;
+text-align: justify;
 
 color: #FFFFFF;
 
@@ -294,25 +296,25 @@ color: #FFFFFF;
 
 
 .text5{
-	position: absolute;
+position: absolute;
 width: 564px;
-height: 216px;
+height: 72px;
 left: 754px;
-top: 2300px;
+top: 2464px;
 
 font-family: Poppins;
-font-style: normal;
-font-weight: 500;
+font-style: italic;
+font-weight: 600;
 font-size: 24px;
 line-height: 36px;
-text-transform: lowercase;
+text-align: center;
 
 color: #FFFFFF;
 
 }
-.missionimg{
+/*.missionimg{
 	position: absolute;
-width: 1440px;
+width: 1510px;
 height: 200px;
 left: 1px;
 top: 2597px;
@@ -343,11 +345,11 @@ font-style: normal;
 font-weight: 800;
 font-size: 64px;
 line-height: 96px;
-/* identical to box height */
+
 color: #F8722B;
 
-}	
-.Gamers{
+}	*/
+/*.Gamers{
 position: absolute;
 width: 605px;
 height: 446px;
@@ -356,47 +358,50 @@ top: 2854px;
 
 background: url(Gamers-playing-on-laptop-_-Photo-Fredrick-Tendong-.png);
 
-}
+}*/
 .wwdbox{
-
-	position: absolute;
+position: absolute;
 width: 462px;
 height: 100px;
 left: 481px;
-top: 3431px;
+top: 2702px;
 
 background: #000000;
 opacity: 0.8;
 border-radius: 16px;
 }
 .wwd{
+
 position: absolute;
 width: 1454px;
 height: 200px;
 left: -15px;
-top: 3370px;
+top: 2671px;
 
 background: url(378116b406bdfcac8e6939651da1fb39.jpg);
-opacity: 0.8;
+opacity: 0.92;
 
 }
 #wwdt{
 	position: absolute;
 width: 404px;
 height: 96px;
-left: 50px;
-margin-top: 9px;
+margin-left:11px;
+margin-top: 4px;
+justify-content: center;
 align-content: center;
-text-align: center;
 font-family: Poppins;
 font-style: normal;
 font-weight: 800;
-font-size: 64px;
+font-size: 54px;
 line-height: 96px;
+/* identical to box height */
+
+
 color: #F8722B;
 
 }
-.text6{
+/*.text6{
 	position: absolute;
 width: 564px;
 height: 216px;
@@ -427,7 +432,7 @@ line-height: 36px;
 text-transform: lowercase;
 
 color: #FFFFFF;
-}
+}*/
 
 .team1{
 
@@ -435,65 +440,67 @@ position: absolute;
 width: 137px;
 height: 137px;
 left: 134px;
-top: 3631px;
+top: 2954px;
 }
 .oa{
-	position: absolute;
+	
+position: absolute;
 width: 281px;
 height: 36px;
-left: 288px;
-top: 3600px;
+left: 338px;
+top: 2904px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 36px;
-/* identical to box height */
-
 text-align: center;
 text-transform: uppercase;
-
 color: #F8722B;
 
 }
 .ot{
-	position: absolute;
+
+position: absolute;
 width: 298px;
-height: 54px;
-left:289px;
-top: 3666px;
+height: 81px;
+left: 329px;
+top: 2974px;
+
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 27px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 
 }
 .team2{
-	
+
 position: absolute;
 width: 137px;
 height: 137px;
 left: 807px;
-top: 3631px;
+top: 2954px;
 }
 .cfe{
-	position: absolute;
-width: 262px;
-height: 72px;
-left: 1020px;
-top: 3600px;
+
+position: absolute;
+width: 300px;
+height: 36px;
+left: 1001px;
+top: 2904px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
+font-size: 28px;
 line-height: 36px;
+/* identical to box height */
+
 text-align: center;
 text-transform: uppercase;
 
@@ -502,9 +509,9 @@ color: #F8722B;
 .cfet{
 	position: absolute;
 width: 298px;
-height: 54px;
+height: 135px;
 left: 1002px;
-top: 3666px;
+top: 2984px;
 
 font-family: Poppins;
 font-style: normal;
@@ -512,29 +519,31 @@ font-weight: 500;
 font-size: 18px;
 line-height: 27px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 
 }
 .team3{
 	
+
 position: absolute;
 width: 137px;
 height: 137px;
 left: 134px;
-top: 3824px;
+top: 3219px;
+
 }
 .ps{
 	position: absolute;
-width: 216px;
+width: 161px;
 height: 36px;
-left: 310px;
-top: 3800px;
+left: 398px;
+top: 3169px;
+
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
+font-size: 28px;
 line-height: 36px;
 /* identical to box height */
 
@@ -547,9 +556,9 @@ color: #F8722B;
 
 position: absolute;
 width: 298px;
-height: 54px;
-left: 290px;
-top: 3866px;
+height: 108px;
+left: 329px;
+top: 3239px;
 
 font-family: Poppins;
 font-style: normal;
@@ -557,35 +566,33 @@ font-weight: 500;
 font-size: 18px;
 line-height: 27px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 
 }
 .team4{
 	
+
 position: absolute;
 width: 137px;
 height: 137px;
 left: 807px;
-top: 3824px;
+top: 3219px;
 }
 
 .tpa{
 
 	position: absolute;
-width: 290px;
-height: 36px;
-left: 1006px;
-top: 3800px;
+width: 241px;
+height: 72px;
+left: 1031px;
+top: 3169px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
+font-size: 28px;
 line-height: 36px;
-/* identical to box height */
-
 text-align: center;
 text-transform: uppercase;
 
@@ -593,11 +600,12 @@ color: #F8722B;
 
 }
 .tpat{
+
 position: absolute;
 width: 298px;
-height: 54px;
+height: 108px;
 left: 1002px;
-top: 3866px;
+top: 3250px;
 
 font-family: Poppins;
 font-style: normal;
@@ -605,7 +613,6 @@ font-weight: 500;
 font-size: 18px;
 line-height: 27px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 
@@ -617,19 +624,20 @@ position: absolute;
 width: 137px;
 height: 137px;
 left: 465px;
-top: 4028px;
+top: 3477px;
 }
  .cc{
- 	position: absolute;
-width: 243px;
+
+position: absolute;
+width: 225px;
 height: 36px;
-left: 640px;
-top: 4000px;
+left: 693px;
+top: 3433px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
+font-size: 28px;
 line-height: 36px;
 /* identical to box height */
 
@@ -640,12 +648,11 @@ color: #F8722B;
 
  }
  .cct{
-
- 	position: absolute;
+position: absolute;
 width: 298px;
-height: 54px;
-left: 620px;
-top: 4066px;
+height: 108px;
+left: 660px;
+top: 3513px;
 
 font-family: Poppins;
 font-style: normal;
@@ -653,28 +660,28 @@ font-weight: 500;
 font-size: 18px;
 line-height: 27px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 
  }
 
 .values{
-	position: absolute;
+position: absolute;
 width: 1443px;
 height: 200px;
 left: -4px;
-top: 4223px;
+top: 3706px;
 
 background: url(378116b406bdfcac8e6939651da1fb39.jpg);
 opacity: 0.92;
 }
+
 .valuebox{
 	position: absolute;
 width: 366px;
 height: 100px;
 left: 536px;
-top: 4284px;
+top: 3767px;
 
 background: #000000;
 opacity: 0.8;
@@ -704,7 +711,7 @@ position: absolute;
 width: 118px;
 height: 36px;
 left: 144px;
-top: 4414px;
+top: 3917px;
 
 font-family: Poppins;
 font-style: normal;
@@ -719,18 +726,20 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .cs{
-	position: absolute;
+	
+position: absolute;
 width: 137px;
 height: 137px;
 left: 134px;
-top: 4575px;
+top: 4058px;
 }
 .cst{
-	position: absolute;
+	
+position: absolute;
 width: 298px;
-height: 108px;
+height: 288px;
 left: 63px;
-top: 4757px;
+top: 4240px;
 
 font-family: Poppins;
 font-style: normal;
@@ -738,7 +747,6 @@ font-weight: 500;
 font-size: 24px;
 line-height: 36px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 }
@@ -748,7 +756,7 @@ color: #FFFFFF;
 width: 245px;
 height: 36px;
 left: 427px;
-top: 4414px;
+top: 3917px;
 
 font-family: Poppins;
 font-style: normal;
@@ -768,15 +776,16 @@ position: absolute;
 width: 137px;
 height: 137px;
 left: 481px;
-top: 4589px;
+top: 4072px;
 }
 .set{
 
+
 position: absolute;
 width: 298px;
-height: 108px;
+height: 180px;
 left: 401px;
-top: 4757px;
+top: 4240px;
 
 font-family: Poppins;
 font-style: normal;
@@ -784,17 +793,16 @@ font-weight: 500;
 font-size: 24px;
 line-height: 36px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 }
 
 .dts{
-	position: absolute;
+position: absolute;
 width: 162px;
 height: 72px;
 left: 807px;
-top: 4414px;
+top: 3917px;
 
 font-family: Poppins;
 font-style: normal;
@@ -813,15 +821,15 @@ position: absolute;
 width: 137px;
 height: 137px;
 left: 819px;
-top: 4588px;
+top: 4071px;
 
 }
 .dtst{
 position: absolute;
 width: 298px;
-height: 108px;
+height: 180px;
 left: 739px;
-top: 4757px;
+top: 4240px;
 
 font-family: Poppins;
 font-style: normal;
@@ -829,17 +837,17 @@ font-weight: 500;
 font-size: 24px;
 line-height: 36px;
 text-align: center;
-text-transform: lowercase;
 
 color: #FFFFFF;
 }
 
 .te{
+	
 	position: absolute;
 width: 232px;
 height: 36px;
 left: 1110px;
-top: 4414px;
+top: 3917px;
 
 font-family: Poppins;
 font-style: normal;
@@ -855,18 +863,19 @@ color: #FFFFFF;
 
 }
 .tei{
+
 position: absolute;
 width: 137px;
 height: 137px;
 left: 1157px;
-top: 4588px;
+top: 4071px;
 }
 .tet{
 position: absolute;
 width: 298px;
-height: 108px;
+height: 360px;
 left: 1077px;
-top: 4757px;
+top: 4240px;
 
 font-family: Poppins;
 font-style: normal;
@@ -874,13 +883,45 @@ font-weight: 500;
 font-size: 24px;
 line-height: 36px;
 text-align: center;
-text-transform: lowercase;
 
-color: #FFFFFF;
+color: #FFFFFF
 }
+.quote1{
+	position: absolute;
+width: 955px;
+height: 90px;
+left: 242px;
+top: 4641px;
+
+font-family: Poppins;
+font-style: italic;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+
+color: #F8722B;
+}
+.quote2{
+position: absolute;
+width: 989px;
+height: 135px;
+left: 225px;
+top: 4774px;
+
+font-family: Poppins;
+font-style: italic;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+
+color: #F8722B;/*#F8722B;*/
+}
+
 .ourteam{
 	position: absolute;
-width: 1442px;
+width: 1514px;
 height: 200px;
 left: -3px;
 top: 4956px;
@@ -1211,6 +1252,122 @@ color: #FFFFFF;
 
 }
 	
+.leftarrow{
+	position: absolute;
+width: 62px;
+height: 64px;
+left: 41px;
+top: 5356px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 144px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #F8722B;
+
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+.rightarrow{
+	position: absolute;
+width: 62px;
+height:64px;
+left: 1353px;
+top: 5356px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 144px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #F8722B;
+}
+
+/*trial of hamburger menu*/
+
+.overlay {
+  height: 90%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  font-family: Poppins;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: gray;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 52px;
+  font-size: 60px;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  top: 40px;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #F8722B;
+  margin: 6px 0;
+  margin-left: 1380px;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
 
 	</style>
 
@@ -1221,79 +1378,90 @@ color: #FFFFFF;
 <div class="left">
             <img src="images/Group 15.png" alt="">
 </div>
-<div class="right">
-            <img src="images/Group 9.png" alt="">
-</div>
-<div class="mid">
-            <img src="images/Rectangle 4.png" alt="">
-</div>
+
 
 <header>
 	<nav class="navbar">
+		
 		<ul class="Home">
-			<li><a href="">Home</a></li>
+			<li><a href="" >Home</a></li>
 		</ul>
 		<ul class="Schedule">
 			<li><a href="">Schedule</a></li>
 		</ul>
 		
 	</nav>
+	
 </header>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#vision">Vision</a>
+    <a href="#vision">Mission</a>
+    <a href="#vt">Values</a>
+    <a href="#us">About Us</a>
+    <a href="#contactus">Contact Us</a>
+    <a href="login.html">Login</a>
+  </div>
+</div>
+<div class="container" >
+  <div class="bar1" onclick="myFunction(this); openNav();"></div>
+  <div class="bar2" onclick="myFunction(this); openNav();"></div>
+  <div class="bar3" onclick="myFunction(this); openNav();"></div>
+</div>
+
 <div class="esports1">
 	<img src="images/esports1.png">
 </div>
+<img src="images/play.png" class="play">
 <div>
 	<h3>Welcome to the world of Gaming</h3>
 </div>
-<div class="about">
-	<img src="images/Rectangle 5.png">
+<div >
+	<img src="images/Rectangle 5.png" class="about">
 </div>
 <div class="forabout">
 <h4 id="us">About Us</h4>
 </div>
-<img src="images/videogames1.png" class="midright">
+<div>
+	<img src="images/videogames1.png" class="midright">
+</div>
+
 <p class="text1">
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-	
-</p>
-<p class="text2">
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	Very few people might have started ESports but today a rising majority across the globe is enthusiastically embracing it. A true gamer knows how far eSports has come and is aware that it has not only revolutionized and redefined online communities but democratized sports and opened doors for gamers to follow their competitive zeal, monetary benefit and professional ambition. ESports is nothing less than a movement at this point!
 	
 </p><br>
-<p class="text3">
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-	
-</p>
-<div class="visionimg">
-	<img src="images/Rectangle 2.png">
+<p class="text2">
+	The Knight Mobs ESports Club serves the competitive gaming community. Especially the amateur players who aspire to improve their video gaming skills, compete in tournaments and obtain opportunities to alter their passion for purpose. We do not limit our players based on their skills. Doesn’t matter if you are an Underdog or in the Pro League, until you’re a true gamer, be our guest.
+
+</p><br>
+
+<div >
+	<img src="images/Rectangle 2.png" class="visionimg">
 </div>
 <div class="visionbox">
-<h4 id="vision">Vision</h4>
+<h4 id="vision">Vision & Mission</h4>
 </div>
 
 <img src="images/gamers2.png" class="midleft">
+<p class="text3">
+	“We’re committed to providing a platform for all the aspiring E-Athlete’s out there.”
+	
+</p>
 <p class="text4">
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	Our mission is to serve an impartial stage for all the gamers. We aim to polish amateur gamers and expedite the gaming careers of experienced and professional gamers. The tournaments will not only create an adrenaline rush but would also be a learning experience for many players.
 	
 </p>
 <p class="text5">
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-	
+	“Our Vision is to accelerate the growth of the gaming society.”
+
 </p>
-<div class="missionimg">
-	<img src="images/Rectangle 11.png">
-</div>
-<div class="missionbox">
-<h5 id="mission">Mission</h5>
-</div>
-<div class="Gamers">
-	<img src="images/Gamers.png">
-
-</div>
 
 
-<div class="wwd">
-	<img src="images/Rectangle 81.png">
+
+<div >
+	<img src="images/Rectangle 81.png" class="wwd">
 
 </div>
 <div class="wwdbox">
@@ -1301,42 +1469,39 @@ color: #FFFFFF;
 
 </div>
 
-<p class="text6">
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-</p>
-<p class="text7">
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-</p>
 <img src="images/team.png" class="team1">
 <div class="oa">
 	<h6>Official Tournament</h6>
 </div>
-<p class="ot">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="ot">“We are officially licensed by PUBG Mobile. Challenge your skills in our tournaments” </p>
 
 <img src="images/team.png" class="team2">
 <div class="cfe">
 	<h6>Collaborating For Events</h6>
 </div>
-<p class="cfet">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="cfet">We are open to Collaborations!
+
+ “When you need to innovate, you need collaboration.” - Marissa Mayer </p>
 
 <img src="images/team.png" class="team3">
 <div class="ps">
-	<h6>Practice Skrims</h6>
+	<h6>Skrim Drills</h6>
 </div>
-<p class="pst">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="pst">We have the Underdogs covered as well! Participate in our daily Scrims and prepare for the final Tournament.</p>
 
 <img src="images/team.png" class="team4">
 <div class="tpa">
 	<h6>Team/PLayer Analysis</h6>
 </div>
-<p class="tpat">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="tpat">What can be better than a detailed analysis of your gameplay to recognise your strengths and flaws! </p>
 
 <img src="images/team.png" class="team5">
 <div class="cc">
-	<h6>content creation</h6>
+	<h6>Gameplay Videos</h6>
 </div>
-<p class="cct">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="cct">All the Tournaments, Scrims and every Primary event would be uploaded on our YouTube Channel!
+</p>
 
 <img src="images/Rectangle 7.png" class="values">
 <div class="valuebox">
@@ -1345,25 +1510,39 @@ color: #FFFFFF;
 
 <h6 class="ity">Integrity</h6>
 <img src="images/cloud-server.png" class="cs">
-<p class="cst">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="cst">Ethical Gaming will always be the core of all the events conducted by The Knight Mobs. The three pillars on which our Club stands are "Rectitude," "Morals" and "Ethics"</p>
 
-<h6 class="se">Service Excellence</h6>
+<h6 class="se">Service Perfection</h6>
 <img src="images/call.png" class="call">
-<p class="set">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="set">We focus on meeting the needs of our comrades by delivering exceptional personal assistance.</p>
 
 <h6 class="dts">The Drive to succeed</h6>
 <img src="images/growth.png" class="growth">
-<p class="dtst">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="dtst">The motive of a Gamer is to win and so is ours. No success comes without the hunger of winning.</p>
 
 <h6 class="te">Team Engagement</h6>
 <img src="images/team1.png" class="tei">
-<p class="tet">Lorem Ipsum is simply dummy text of the printing.</p>
+<p class="tet">We will wholeheartedly support our team in every way possible to ensure that all their needs are met. We will also be empowering them with resources and praising their performance towards success.</p>
+
+
+<p class="quote1">
+"It is better to fail in originality than to succeed in imitation."
+ Herman Melville
+</p>
+
+<p class="quote2">
+"Success usually comes to those who are too busy to be looking for it."
+~ Henry David Thoreau
+</p>
+
 
 
 <img src="images/Rectangle 9.png" class="ourteam">
 <div class="otm">
 	<h5 class="members">Our Team</h5>
 </div>
+
+<img src="images/left.png" class="leftarrow">
 
 <img src="images/ceo.png" class="ceo">
 <h6 class="ceot">Rahul Gupta CEO</h6>
@@ -1374,7 +1553,7 @@ color: #FFFFFF;
 <img src="images/cco.png" class="cco">
 <h6 class="ccot">Khushal Agarwal Chief Creative Officer</h6>
 
-
+<img src="images/right.png" class="rightarrow">
 
 <img src="images/Vector 4.png" class="Vector">
         		 		<img src="images/Rectangle 15.png" class="btm">
@@ -1403,7 +1582,7 @@ color: #FFFFFF;
         		</div>
         		<div class="ctn">
 
-        			<p>
+        			<p id="contactus">
         				theknightmobsesports@gmail.com
 
         				&nbsp;
@@ -1420,6 +1599,32 @@ color: #FFFFFF;
 
         		<img src="images/Rectangle 18.png" class="line">
         		<img src="images/copyright.png" class="copy">
+
+        		<!-- <script type="text/javascript">
+        			function togglebar(){
+        				document.getElementById('sidebar').classList.toggle('active');
+        			}
+        		</script> -->
+        	<!-- 	<script type="text/javascript">
+        			function Function(x) {
+  					x.classList.toggle("dismenu");
+					}
+        		</script> -->
+        		<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+        		<script type="text/javascript">
+        			function myFunction(x) {
+  					x.classList.toggle("change");
+					}
+        		</script>
 </body>
 </html>
 

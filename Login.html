@@ -3,44 +3,62 @@
 <head>
 	<title>KnightMobs</title>
 	<link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="icon" type="image/ico" href="images/logo.png">
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
-<div class="left">
+    <div class="bar">
+        <div class="left">
             <img src="images/Group 15.png" alt="">
+        </div>
+        
+
+
+        <header>
+            	<nav class="navbar">
+            		<ul class="Home">
+            			<li><a href="">Home</a></li>
+            		</ul>
+            		<ul class="Schedule">
+            			<li><a href="">Schedule</a></li>
+            		</ul>
+            		
+            	</nav>
+        </header>
+    </div>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#vision">Vision</a>
+    <a href="#vision">Mission</a>
+    <a href="#vt">Values</a>
+    <a href="#us">About Us</a>
+    <a href="#contactus">Contact Us</a>
+    <a href="login.html">Login</a>
+  </div>
 </div>
-<div class="right">
-            <img src="images/Group 9.png" alt="">
-</div>
-<div class="mid">
-            <img src="images/Rectangle 4.png" alt="">
+<div class="container" >
+  <div class="bar1" onclick="myFunction(this); openNav();"></div>
+  <div class="bar2" onclick="myFunction(this); openNav();"></div>
+  <div class="bar3" onclick="myFunction(this); openNav();"></div>
 </div>
 
-<header>
-	<nav class="navbar">
-		<ul class="Home">
-			<li><a href="">Home</a></li>
-		</ul>
-		<ul class="Schedule">
-			<li><a href="">Schedule</a></li>
-		</ul>
-		
-	</nav>
-</header>
 <div class="esports1">
-	<img src="images/esports1.png">
+	<img src="images/logo.png">
 </div>
-<div class="play">
-	<img src="images/play.png">
-</div>
+
 <div>
 	<h3>Login</h3>
 </div>
+
+<img src="images/Rectangle 6.png" class="line1">
+
 <form class="login">
 				
         		 <div class="box1">
         		 	<input type="text" id="f2" class="mail" required="required" >
-        		 	<label for="mail" class="label1">Email</label>
+        		 	<label for="mail" class="label1">E-Mail</label>
         		 </div>
         		
         		 <div class="box2">
@@ -56,8 +74,10 @@
         		 		<img src="images/Vector 4.png" class="Vector">
         		 		<img src="images/Rectangle 15.png" class="btm">
         		
-        		 	<input type="text" class="query" placeholder="your contact number">
-        		 	<input type="text"  class="query1"  placeholder="How can we help ? ">
+        		 	<input type="text" class="query" required="required">
+                    <label for="cn" class="label3">your contact number</label>
+        		 	<input type="text"  class="query1"   required="required">
+                    <label for="help" class="label4">How can we help ?</label>
         		 	<input type="submit" value="submit" class="submit">
 
         		 
@@ -99,5 +119,20 @@
         		<img src="images/copyright.png" class="copy">
         		
 
+                <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+                <script type="text/javascript">
+                    function myFunction(x) {
+                    x.classList.toggle("change");
+                    }
+                </script>
 </body>
 </html>
