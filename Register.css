@@ -143,13 +143,16 @@ outline: none;
 	outline: none;
 	border:none;
 }
+.label:hover{
+	display: none;
+}
 .box .label{
 	position: absolute;
 width: 148px;
 height: 45px;
 left: 354px;
 top: 460px;
-
+cursor: inherit;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -179,13 +182,16 @@ outline: none;
 .box1 .mail:valid + .label1{
 	display: none;
 }
+.label1:hover{
+	display: none;
+}
 .box1 .label1{
 	position: absolute;
 width: 223px;
 height: 45px;
 left: 354px;
 top: 560px;
-
+cursor: inherit;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -218,6 +224,9 @@ outline: none;
 .box2 .phone:valid + .label2{
 	display: none;
 }
+.label2:hover{
+	display: none;
+}
 .box2 .label2{
 	
 position: absolute;
@@ -225,7 +234,7 @@ width: 252px;
 height: 45px;
 left: 354px;
 top: 662px;
-
+cursor: inherit;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -254,6 +263,20 @@ padding-left: 25px;
 outline: none;
 
 border-bottom-color:#F8722B;
+}
+
+select{
+	border: 0px;
+	outline: 0px;
+}
+.borderbtm{
+	position: absolute;
+width: 849px;
+height: 5px;
+left: 322px;
+top: 837px;
+
+background: #F8722B;
 }
 .States option {
 	font-family: Poppins;
@@ -285,13 +308,16 @@ outline: none;
 .box3 .pass:valid + .label3{
 	display: none;
 }
+.label3:hover{
+	display: none;
+}
 .box3 .label3{
 	position: absolute;
 width: 145px;
 height: 45px;
 left: 354px;
 top: 875px;
-
+cursor: inherit;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -324,13 +350,16 @@ outline: none;
 .box4 .cnfpass:valid + .label4{
 	display: none;
 }
+.label4:hover{
+	display: none;
+}
 .box4 .label4{
 	position: absolute;
 width: 274px;
 height: 45px;
 left: 354px;
 top: 978px;
-
+cursor: inherit;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -523,33 +552,88 @@ text-transform: capitalize;
 color: #F8722B;
 
 }
-
 .query{
-
 
 
 position: absolute;
 width: 366px;
 height: 30px;
-left: 259px;
-top: 1335px;
-
+left: 298px;
+top:1335px;
+border: none;
+outline: none;
 background: #FFFFFF;
 border: 1px solid #F8722B;
 box-sizing: border-box;
+font-family: Poppins;
 }
+.query:focus + .label5{
+	display: none;
 
+}
+.query:valid + .label5{
+	display: none;
+}
+.label5{
+	position: absolute;
+height: 16px;
+left: 310px;
+right: 895px;
+top: 1337px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: 0.15px;
+
+/* 00. On Surface / Medium Emphasis */
+
+color: rgba(0, 0, 0, 0.6);
+}
 .query1{
 	position: absolute;
 width: 366px;
 height: 74px;
-left: 258px;
+left: 298px;
 top: 1399px;
-
+outline: none;
+border:none;
 background: #FFFFFF;
 border: 1px solid #F8722B;
 box-sizing: border-box;
+font-family: Poppins;
+font-size: 20px;
 }
+.query1:focus + .label6{
+	display: none;
+
+}
+.query1:valid + .label6{
+	display: none;
+}
+.label6{
+	position: absolute;
+height: 16px;
+left: 310px;
+right: 895px;
+top: 1420px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: 0.15px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+
 
 .submit{
 	position: absolute;
