@@ -133,7 +133,10 @@ top: 685px;
 font-size: 35px;
 font-family: Poppins;
 background: #303030;
-color: white;
+/*color: white;*/
+color: #FFFFFF;
+outline: none;
+	border: none;
 	border-bottom-color:#F8722B;
 	
 }
@@ -151,14 +154,12 @@ color: white;
 width: 93px;
 height: 45px;
 left: 702px;
-margin-top: 704px;
+margin-top: 665px;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
 line-height: 45px;
-
-
 color: #FFFFFF;
 
 }
@@ -174,6 +175,8 @@ font-size: 35px;
 font-family: Poppins;
 background: #303030;
 color: white;
+outline: none;
+	border: none;
 	border-bottom-color:#F8722B;
 }
 .box2 .pass:focus + .label2{
@@ -187,17 +190,35 @@ color: white;
 width: 93px;
 height: 45px;
 left: 680px;
-margin-top: 824px;
+margin-top: 785px;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
 line-height: 45px;
-
-
 color: #FFFFFF;
 
 }
+
+.rt1{
+	position: absolute;
+width: 440px;
+height: 5px;
+left: 540px;
+top: 770px;
+
+background: #F8722B;
+}
+.rt2{
+	position: absolute;
+width: 440px;
+height: 5px;
+left: 540px;
+top: 888px;
+
+background: #F8722B;
+}
+
 #sb1{
 	position: absolute;
 width: 248px;
@@ -489,7 +510,7 @@ color: #F8722B;
 /*trial of hamburger menu*/
 
 .overlay {
-  height: 90%;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -535,6 +556,7 @@ color: #F8722B;
   position: relative;
   cursor: pointer;
   top: 40px;
+  width: 100px;
 }
 .bar1, .bar2, .bar3 {
   width: 35px;

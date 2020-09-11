@@ -1,21 +1,21 @@
 body{
 			
-			position: absolute;
-			width: 1400px;
-			height: 2604px;
-			left: -1px;
-			top: 0px;
-			background: #1C1C1C;
-			max-width: 90%;
+    position: absolute;
+    width: 1400px;
+    height: 2604px;
+    left: -1px;
+    top: 0px;
+    background: #1C1C1C;
+    max-width: 90%;
 }
-		
+
 .left{
-			position: absolute;
-			width: 249px;
-			height: 87px;
-			left: 45px;
-			top: 18px;
-	}
+    position: absolute;
+    width: 249px;
+    height: 87px;
+    left: 45px;
+    top: 18px;
+}
 
 .right{
 
@@ -24,60 +24,57 @@ width: 159px;
 height: 45px;
 left: 1162px;
 top: 40px;
-border:none; 
-outline: none;
+
 background: #F8722B;
 border-radius: 11px;
 font-family: Poppins;
+align-content: center;
+border:none; 
+outline: none;
+font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-text-transform: capitalize;
-align-content: center;
-text-decoration-line: underline;
-text-transform: capitalize;
 font-size: 25px;
+text-transform: capitalize;
+text-decoration-line: underline;
 color: #FFFFFF;
-
 }
 /*#sb1{
-	position: absolute;
+position: absolute;
 width: 116px;
 height: 40px;
 left: 20px;
 top:0px;
 background-color:#F8722B;
 
-font-family: Poppins;
-
-font-size: 25px;
 line-height: 45px;
 /* identical to box height */
-	
 
-		.navbar{
-			background-color: black;
-			
-			font-family: Poppins;
 
-		}
-		.bar{
-			position: absolute;
-			width: 1512px;
-			height: 125px;
-			left: -6px;
-			top: -10px;
+.navbar{
+    background-color: black;
+    
+    font-family: Poppins;
 
-			background: #0A0A0A;
-			opacity: 0.85;
-		}
-		
-	.navbar li a:hover,
-    .navbar li a.active {
-        text-decoration: underline #F8722B;
-        color: #F8722B;
+}
+.bar{
+    position: absolute;
+    width: 1512px;
+    height: 125px;
+    left: -6px;
+    top: -10px;
 
-    }
-		.Home{
+    background: #0A0A0A;
+    opacity: 0.85;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+text-decoration: underline #F8722B;
+color: #F8722B;
+
+}
+.Home{
 position: absolute;
 list-style: none;
 width: 90px;
@@ -95,8 +92,8 @@ line-height: 45px;
 
 color: #FFFFFF;
 
-		} 
-		.Schedule{
+} 
+.Schedule{
 
 list-style: none;
 position: absolute;
@@ -116,93 +113,93 @@ line-height: 45px;
 color: #FFFFFF;
 
 
-		} 
-		.navbar li a{
-			padding: 3px 3px;
-			text-decoration: none;
-			color: white;
-			font-family: Poppins;
-		}
+} 
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+}
 
 /*trial of hamburger menu*/
 
 .overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9);
+overflow-x: hidden;
+transition: 0.5s;
 }
 
 .overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
 }
 
 .overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: white;
-  font-family: Poppins;
-  display: block;
-  transition: 0.3s;
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: white;
+font-family: Poppins;
+display: block;
+transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: gray;
+color: gray;
 }
 
 .overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 52px;
-  font-size: 60px;
+position: absolute;
+top: 20px;
+right: 52px;
+font-size: 60px;
 }
 
 .container {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  top:40px;
-  width: 100px;
+display: inline-block;
+position: relative;
+cursor: pointer;
+top: 40px;
+width: 100px;
 }
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #F8722B;
-  margin: 6px 0;
-  margin-left: 1380px;
-  transition: 0.4s;
+width: 35px;
+height: 5px;
+background-color: #F8722B;
+margin: 6px 0;
+margin-left: 1380px;
+transition: 0.4s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+-webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
 /* Fade out the second bar */
 .change .bar2 {
-  opacity: 0;
+opacity: 0;
 }
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+-webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 .heading{
-	position: absolute;
+position: absolute;
 width: 1182px;
 height: 144px;
 left: 129px;
@@ -220,7 +217,7 @@ color: #FFFFFF;
 
 }
 .underline{
-	position: absolute;
+position: absolute;
 width: 132px;
 height: 5px;
 left: 654px;
@@ -230,7 +227,7 @@ background: #F8722B;
 }
 
 .tournament{
-	position: absolute;
+position: absolute;
 width: 493px;
 height: 92px;
 left: 473px;
@@ -245,7 +242,7 @@ border-bottom-color:#F8722B;
 background: #303030;
 }
 .tournament option {
-	font-family: Poppins;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
@@ -254,11 +251,11 @@ outline: none;
 
 }
 select{
-	border: 0px;
-	outline: 0px;
+border: 0px;
+outline: 0px;
 }
 .borderbtm{
-	position: absolute;
+position: absolute;
 width: 493px;
 height: 5px;
 left: 473px;
@@ -268,7 +265,7 @@ background: #F8722B;
 }
 
 .edit{
-	position: absolute;
+position: absolute;
 width: 184px;
 height: 54px;
 left: 1209px;
@@ -308,7 +305,7 @@ color: #FFFFFF;
 }
 
 .teamid{
-	position: absolute;
+position: absolute;
 width: 197px;
 height: 63px;
 left: 78px;
@@ -326,7 +323,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .inp{
-		position: absolute;
+position: absolute;
 width: 298px;
 height: 48px;
 left: 239px;
@@ -342,19 +339,19 @@ border-bottom:red;
 }
 
 .box .inp:focus + .label{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .inp:valid + .label{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label:hover{
-	display: none;
-	
+display: none;
+
 }
 .label{
-	position: absolute;
+position: absolute;
 width: 248px;
 height: 48px;
 left: 299px;
@@ -372,7 +369,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .idbtm{
-	position: absolute;
+position: absolute;
 width: 296px;
 height: 4px;
 left: 239px;
@@ -381,7 +378,7 @@ top: 700px;
 background: #F8722B;
 }
 .igl{
-	position: absolute;
+position: absolute;
 width: 357px;
 height: 63px;
 left: 85px;
@@ -416,19 +413,19 @@ text-align: center;
 }
 
 .box2 .phn:focus + .label1{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .phn:valid + .label1{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label1:hover{
-	display: none;
-	cursor: inherit;
+display: none;
+cursor: inherit;
 }
 .label1{
-	position: absolute;
+position: absolute;
 width: 238px;
 height: 48px;
 left: 136px;
@@ -474,18 +471,18 @@ text-align: center;
 }
 
 .box3 .name:focus + .label2{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .name:valid + .label2{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label2:hover{
-	display: none;
+display: none;
 }
 .label2{
-	
+
 position: absolute;
 width: 242px;
 height: 48px;
@@ -503,7 +500,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .nbtm{
-	position: absolute;
+position: absolute;
 width: 409px;
 height: 5px;
 left: 511px;
@@ -528,18 +525,18 @@ text-align: center;
 }
 
 .box4 .chid:focus + .label3{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .chid:valid + .label3{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label3:hover{
-	display: none;
+display: none;
 }
 .label3{
-	position: absolute;
+position: absolute;
 width: 203px;
 height: 48px;
 left: 1072px;
@@ -558,7 +555,7 @@ color: #FFFFFF;
 
 }
 .ibtm{
-	position: absolute;
+position: absolute;
 width: 398px;
 height: 5px;
 left: 966px;
@@ -583,21 +580,21 @@ text-align: center;
 }
 
 .box5 .pl2inp:focus + .label4{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .pl2inp:valid + .label4{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label4:hover{
-	display: none;
-	cursor: inherit;
-	
+display: none;
+cursor: inherit;
+
 }
 
 .pl2{
-	position: absolute;
+position: absolute;
 width: 183px;
 height: 63px;
 left: 84px;
@@ -616,7 +613,7 @@ color: #FFFFFF;
 
 }
 .pl2btm{
-	position: absolute;
+position: absolute;
 width: 409px;
 height: 5px;
 left: 296px;
@@ -625,7 +622,7 @@ top: 1142px;
 background: #F8722B;
 }
 .label4{
-	position: absolute;
+position: absolute;
 width: 242px;
 height: 48px;
 left: 376px;
@@ -644,7 +641,7 @@ color: #FFFFFF;
 
 }
 .chid2{
-	position: absolute;
+position: absolute;
 width: 409px;
 height: 48px;
 left: 747px;
@@ -658,20 +655,20 @@ text-align: center;
 border:none;
 }
 .box6 .chid2:focus + .label5{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .chid2:valid + .label5{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label5:hover{
-	display: none;
-	cursor: inherit;
+display: none;
+cursor: inherit;
 
 }
 .label5{
-	position: absolute;
+position: absolute;
 width: 203px;
 height: 48px;
 left: 847px;
@@ -690,7 +687,7 @@ color: #FFFFFF;
 
 }
 .chid2btm{
-	position: absolute;
+position: absolute;
 width: 409px;
 height: 5px;
 left: 751px;
@@ -732,20 +729,20 @@ text-align: center;
 }
 
 .box7 .pl3inp:focus + .label6{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .pl3inp:valid + .label6{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label6:hover{
-	display: none;
-	cursor: inherit;
-	
+display: none;
+cursor: inherit;
+
 }
 .label6{
-	position: absolute;
+position: absolute;
 width: 242px;
 height: 48px;
 left: 376px;
@@ -780,20 +777,20 @@ text-align: center;
 }
 
 .box8 .chid3:focus + .label7{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .chid3:valid + .label7{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label7:hover{
-	display: none;
-	cursor: inherit;
-	
+display: none;
+cursor: inherit;
+
 }
 .label7{
-	position: absolute;
+position: absolute;
 width: 203px;
 height: 48px;
 left: 847px;
@@ -812,7 +809,7 @@ color: #FFFFFF;
 
 }
 .pl3btm{
-	position: absolute;
+position: absolute;
 width: 409px;
 height: 5px;
 left: 296px;
@@ -821,7 +818,7 @@ top: 1261px;
 background: #F8722B;
 }
 .chid3btm{
-	position: absolute;
+position: absolute;
 width: 398px;
 height: 5px;
 left: 751px;
@@ -863,20 +860,20 @@ text-align: center;
 }
 
 .box9 .pl4inp:focus + .label8{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .pl4inp:valid + .label8{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label8:hover{
-	display: none;
-	cursor: inherit;
-	
+display: none;
+cursor: inherit;
+
 }
 .label8{
-	position: absolute;
+position: absolute;
 width: 242px;
 height: 48px;
 left: 376px;
@@ -910,20 +907,20 @@ text-align: center;
 }
 
 .box10 .chid4:focus + .label9{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .chid4:valid + .label9{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label9:hover{
-	display: none;
-	cursor: inherit;
-	
+display: none;
+cursor: inherit;
+
 }
 .label9{
-	position: absolute;
+position: absolute;
 width: 242px;
 height: 48px;
 left: 847px;
@@ -943,7 +940,7 @@ color: #FFFFFF;
 
 }
 .pl4btm{
-	position: absolute;
+position: absolute;
 width: 409px;
 height: 5px;
 left: 296px;
@@ -952,7 +949,7 @@ top: 1404px;
 background: #F8722B;
 }
 .chid4btm{
-	position: absolute;
+position: absolute;
 width: 409px;
 height: 5px;
 left: 747px;
@@ -961,7 +958,7 @@ top: 1404px;
 background: #F8722B;
 }
 .sbplayer{
-	position: absolute;
+position: absolute;
 width: 392px;
 height: 63px;
 left: 84px;
@@ -996,20 +993,20 @@ text-align: center;
 }
 
 .box11 .sbinp:focus + .label10{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .sbinp:valid + .label10{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label10:hover{
-	display: none;
-	cursor: inherit;
-	
+display: none;
+cursor: inherit;
+
 }
 .label10{
-	position: absolute;
+position: absolute;
 width: 242px;
 height: 48px;
 left: 501px;
@@ -1043,20 +1040,20 @@ text-align: center;
 }
 
 .box12 .chid5:focus + .label11{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .chid5:valid + .label11{
-	display: none;
-	outline: none;
+display: none;
+outline: none;
 }
 .label11:hover{
-	display: none;
-	cursor: inherit;
-	
+display: none;
+cursor: inherit;
+
 }
 .label11{
-	position: absolute;
+position: absolute;
 width: 203px;
 height: 48px;
 left: 938px;
@@ -1084,7 +1081,7 @@ background: #F8722B;
 
 }
 .chid5btm{
-	position: absolute;
+position: absolute;
 width: 381px;
 height: 5px;
 left: 847px;
@@ -1115,7 +1112,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .mkpay{
-	position: absolute;
+position: absolute;
 width: 325px;
 height: 42px;
 left: 523px;
@@ -1135,7 +1132,7 @@ border-radius: 11px;
 }
 
 .Vector{
-	
+
 position: absolute;
 width: 1085px;
 height: 154.02px;
@@ -1145,7 +1142,7 @@ top: 1920px;
 
 
 .btm{
-	position: absolute;
+position: absolute;
 width: 1132px;
 height: 220px;
 right: 113px;
@@ -1155,7 +1152,7 @@ border-radius: 24px;
 }
 
 .ofc{
-	position: absolute;
+position: absolute;
 height: 198px;
 left: 1037px;
 /*right: 143px;*/
@@ -1177,7 +1174,7 @@ color: #FFFFFF;
 }
 
 .addr{
-	position: absolute;
+position: absolute;
 height: 200px;
 left: 1037px;
 right: 144px;
@@ -1239,7 +1236,7 @@ color: #FFFFFF;
 }
 
 #sh{
-	position: absolute;
+position: absolute;
 width: 231px;
 height: 36px;
 left: 170px;
@@ -1267,7 +1264,7 @@ top: 2210px;
 }
 
 .line{
-	position: absolute;
+position: absolute;
 width: 1184px;
 height: 6px;
 left: 136px;
@@ -1276,7 +1273,7 @@ top: 2354px;
 background: #F8722B;
 }
 .copy{
-	position: absolute;
+position: absolute;
 width: 208px;
 height: 27px;
 left: 617px;
@@ -1310,14 +1307,14 @@ box-sizing: border-box;
 font-family: Poppins;
 }
 .query:focus + .label12{
-	display: none;
+display: none;
 
 }
 .query:valid + .label12{
-	display: none;
+display: none;
 }
 .label12{
-	position: absolute;
+position: absolute;
 height: 16px;
 left: 310px;
 /*right: 895px;*/
@@ -1337,7 +1334,7 @@ letter-spacing: 0.15px;
 color: rgba(0, 0, 0, 0.6);
 }
 .query1{
-	position: absolute;
+position: absolute;
 width: 366px;
 height: 74px;
 left: 298px;
@@ -1351,14 +1348,14 @@ font-family: Poppins;
 font-size: 20px;
 }
 .query1:focus + .label13{
-	display: none;
+display: none;
 
 }
 .query1:valid + .label13{
-	display: none;
+display: none;
 }
 .label13{
-	position: absolute;
+position: absolute;
 height: 16px;
 left: 310px;
 
@@ -1376,35 +1373,9 @@ letter-spacing: 0.15px;
 color: rgba(0, 0, 0, 0.6);
 }
 
-/*.query{
 
-
-
-position: absolute;
-width: 366px;
-height: 30px;
-left: 188px;
-top: 1860px;
-
-background: #FFFFFF;
-border: 1px solid #F8722B;
-box-sizing: border-box;
-}
-
-.query1{
-	position: absolute;
-width: 366px;
-height: 74px;
-left: 188px;
-top: 1929px;
-
-background: #FFFFFF;
-border: 1px solid #F8722B;
-box-sizing: border-box;
-}
-*/
 .submit{
-	position: absolute;
+position: absolute;
 width: 269px;
 height: 47px;
 left: 870px;

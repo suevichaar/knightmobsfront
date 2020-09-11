@@ -53,7 +53,7 @@ list-style: none;
 width: 90px;
 height: 45px;
 left: 607px;
-top: 41px;
+top: 21px;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -70,7 +70,7 @@ position: absolute;
 width: 140px;
 height: 45px;
 left: 737px;
-top: 41px;
+top: 21px;
 
 font-family: Poppins;
 font-style: normal;
@@ -1294,7 +1294,7 @@ color: #F8722B;
 /*trial of hamburger menu*/
 
 .overlay {
-  height: 90%;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -1340,6 +1340,7 @@ color: #F8722B;
   position: relative;
   cursor: pointer;
   top: 40px;
+  width: 100px;
 }
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -1366,6 +1367,16 @@ color: #F8722B;
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
+.bar{
+			position: absolute;
+			width: 1512px;
+			height: 125px;
+			left: -6px;
+			top: -10px;
+
+			background: #0A0A0A;
+			opacity: 0.85;
+		}
 
 
 
@@ -1375,25 +1386,25 @@ color: #F8722B;
 
 </head>
 <body>
-<div class="left">
-            <img src="images/Group 15.png" alt="">
+
+<div class="bar">
+		<div class="left">
+		            <img src="images/Group 15.png" alt="">
+		</div>
+		<header>
+			<nav class="navbar">
+				
+				<ul class="Home">
+					<li><a href="" class="active">Home</a></li>
+				</ul>
+				<ul class="Schedule">
+					<li><a href="Schedule.html">Schedule</a></li>
+				</ul>
+				
+			</nav>
+			
+		</header>
 </div>
-
-
-<header>
-	<nav class="navbar">
-		
-		<ul class="Home">
-			<li><a href="" >Home</a></li>
-		</ul>
-		<ul class="Schedule">
-			<li><a href="">Schedule</a></li>
-		</ul>
-		
-	</nav>
-	
-</header>
-
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
