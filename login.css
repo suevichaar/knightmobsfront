@@ -36,12 +36,12 @@ body{
 			overflow: auto;
 			font-family: Poppins;
 		}*/
-	.navbar li a:hover,
+	/*.navbar li a:hover,
     .navbar li a.active {
         text-decoration: underline #F8722B;
         color: #F8722B;
 
-    }
+    }*/
 		.Home{
 position: absolute;
 list-style: none;
@@ -60,7 +60,16 @@ line-height: 45px;
 
 color: #FFFFFF;
 
-		} 
+		}
+		.bottom{
+			position: absolute;
+width: 43px;
+height: 4px;
+left:65px;
+top: 40px;
+background: #F8722B;
+		}
+		 
 		.Schedule{
 
 list-style: none;

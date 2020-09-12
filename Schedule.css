@@ -34,14 +34,14 @@ body{
 			opacity: 0.85;
 		}
 		
-	.navbar li a:hover,
+	/*.navbar li a:hover,
     .navbar li a.active {
         text-decoration: underline solid #F8722B;
         text-decoration-style: solid;
 		transition: 0.5s;        
         color: #F8722B;
 
-    }
+    }*/
 	.Home{
     
 position: absolute;
@@ -83,6 +83,15 @@ color: #FFFFFF;
 
 
 		} 
+.bottombar{
+			position: absolute;
+width: 43px;
+height: 4px;
+left:85px;
+top: 40px;
+background: #F8722B;
+		}
+
 		.navbar li a{
 			padding: 3px 3px;
 			text-decoration: none;
@@ -1252,6 +1261,7 @@ background: #F8722B;
 border-radius: 13px;
 }
 
+/*footer of the page*/
 .Vector{
 	
 position: absolute;
