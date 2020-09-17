@@ -87,9 +87,15 @@ color: #FFFFFF;
 			position: absolute;
 width: 43px;
 height: 4px;
-left:85px;
+left:75px;
 top: 40px;
 background: #F8722B;
+transition: width;
+transition-duration: 0.2s;
+		}
+		.bottombar:hover{
+			width: 90px;
+			left: 50px;
 		}
 
 		.navbar li a{

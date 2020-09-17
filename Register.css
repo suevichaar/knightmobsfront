@@ -60,9 +60,16 @@ color: #FFFFFF;
 			position: absolute;
 width: 43px;
 height: 4px;
-left:65px;
+left:55px;
 top: 40px;
 background: #F8722B;
+transition: width;
+transition-duration: 0.5s;
+
+		}
+		.bottombar:hover{
+			width: 70px;
+			left:45px;
 		}
 		.Schedule{
 
@@ -97,7 +104,7 @@ color: #FFFFFF;
 position: absolute;
 width: 318px;
 height: 72px;
-left: 565px;
+left: 585px;
 top: 178px;
 
 font-family: Poppins;
@@ -120,6 +127,12 @@ left: 653px;
 top: 310px;
 
 background: #F8722B;
+transition: width;
+transition-duration: 0.5s;
+}
+.line1:hover{
+width: 268px;
+left:585px;
 }
 	
 

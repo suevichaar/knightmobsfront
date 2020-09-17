@@ -65,11 +65,16 @@ color: #FFFFFF;
 			position: absolute;
 width: 43px;
 height: 4px;
-left:65px;
+left:57px;
 top: 40px;
 background: #F8722B;
+transition: width;
+transition-duration: 0.5s;
 		}
-		 
+		.bottom:hover{
+			width:70px;
+			left: 45px;
+		}		 
 		.Schedule{
 
 list-style: none;
@@ -123,6 +128,12 @@ color: #FFFFFF;
 					left: 710px;
 					top: 642px;
 					background: #F8722B;
+					transition:width;
+					transition-duration: 0.5s;
+		}
+		.line1:hover{
+			width:82px;
+			left: 730px;
 		}
 		.esports1{
 			position: absolute;
@@ -266,9 +277,9 @@ height: 220px;
 right: 154px;
 top: 1080px;
 left: 212px;
-/*background: #FFFFFF;*/
 box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.05);
 border-radius: 24px;
+
 }
 
 .query{
@@ -463,8 +474,8 @@ color: #FFFFFF;
 	position: absolute;
 width: 231px;
 height: 36px;
-left: 170px;
-top: 1395px;
+left: 160px;
+top: 1365px;
 
 font-family: Poppins;
 font-style: normal;
@@ -483,8 +494,28 @@ color: #FFFFFF;
 position: absolute;
 width: 103px;
 height: 35.17px;
-left: 226px;
-top: 1473.11px;
+left: 206px;
+color:  #F8722B;
+top: 1453.11px;
+transition: all linear;
+transition-duration:0.5s;  
+}
+.Group12:hover i{
+	transform: scaleX(1.2);
+}
+.insta{
+
+position: absolute;
+width: 103px;
+height: 35.17px;
+left: 266px;
+color:  #F8722B;
+top: 1453.11px;
+transition: all linear;
+transition-duration:0.5s; 
+}
+.insta:hover i{
+	transform: scaleX(1.2);
 }
 
 .line{
@@ -493,20 +524,21 @@ width: 1184px;
 height: 6px;
 left: 136px;
 top: 1564px;
-
+border:none;
+outline: none; 
 background: #F8722B;
 }
 .copy{
 	position: absolute;
 width: 208px;
 height: 27px;
-left: 617px;
-top: 1593px;
+left:597px;
+top: 1573px;
 
 font-family: Poppins;
 font-style: normal;
-font-weight: 500;
-font-size: 18px;
+font-weight:600;
+font-size: 24px;
 line-height: 27px;
 /* identical to box height */
 
@@ -528,7 +560,7 @@ color: #F8722B;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .overlay-content {
@@ -570,10 +602,11 @@ color: #F8722B;
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
+   cursor: pointer;
   background-color: #F8722B;
   margin: 6px 0;
   margin-left: 1380px;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 /* Rotate first bar */

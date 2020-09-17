@@ -34,14 +34,14 @@ body{
 			opacity: 0.85;
 		}
 		
-	.navbar li a:hover,
+	/*.navbar li a:hover,
     .navbar li a.active {
         text-decoration: underline solid #F8722B;
         text-decoration-style: solid;
 		transition: 0.5s;        
         color: #F8722B;
 
-    }
+    }*/
 	.Home{
     
 position: absolute;
@@ -62,6 +62,21 @@ line-height: 45px;
 color: #FFFFFF;
 
 		} 
+    .bottombar{
+      position: absolute;
+width: 43px;
+height: 4px;
+left:60px;
+top: 40px;
+background: #F8722B;
+transition: width;
+transition-duration: 0.5s;
+
+    }
+    .bottombar:hover{
+      width: 85px;
+      left:45px;
+    }
 		.Schedule{
 
 list-style: none;
@@ -193,15 +208,21 @@ color: #FFFFFF;
 
 }
 
-.bottom{
+.bottom {
   position: absolute;
 width: 132px;
 height: 5px;
 left: 653px;
 top: 586px;
-
 background: #F8722B;
+
+ 
 }
+/*.bottom:hover{
+  
+  left: 499px;
+  width:440px; 
+}*/
 .searchbox{
   position: absolute;
 width: 248px;

@@ -4,7 +4,7 @@
 	<title>KnightMobs</title>
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	 <link rel="icon" type="image/ico" href="images/logo.png">
-	<!-- <link rel="stylesheet" type="text/css" href="Hamburger.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<style type="text/css">
 		∗{
 			padding: 0;
@@ -14,7 +14,7 @@
 		}
 		body{
 			position: absolute;
-			width: 1430px;
+			width: 1400px;
 			height: 6353px;
 			left: -1px;
 			top: 0px;
@@ -36,16 +36,7 @@
 			width: 100%;
 			font-family: Poppins;
 		}
-		
-	
-	/*.navbar li a:hover,
-    .navbar li a.active {
-        text-decoration: underline solid #F8722B;
-        text-decoration-style: solid;
-		transition: 0.5s;        
-        color: #F8722B;
 
-    }	*/
 
 	.Home{
    position: absolute;
@@ -67,9 +58,17 @@ color: #FFFFFF;
 			position: absolute;
 width: 43px;
 height: 4px;
-left:65px;
+left:60px;
 top: 40px;
 background: #F8722B;
+transition-property: width;
+transition-duration:0.5s;
+transition-timing-function: ease-in;
+
+		}
+		.bottombar:hover{
+			width: 80px;
+			left: 47px;
 		}
 		.Schedule{
 
@@ -320,53 +319,7 @@ text-align: center;
 color: #FFFFFF;
 
 }
-/*.missionimg{
-	position: absolute;
-width: 1510px;
-height: 200px;
-left: 1px;
-top: 2597px;
 
-background: url(adobestock_256308615jpeg_48170.jpg);
-opacity: 0.92;
-}
-.missionbox{
-	position: absolute;
-width: 366px;
-height: 100px;
-left: 539px;
-top: 2655px;
-background: #000000;
-opacity: 0.8;
-border-radius: 16px;
-
-}
-#mission{
-	position: absolute;
-width: 257px;
-height: 96px;
-left: 53px;
-margin-top: 6px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 800;
-font-size: 64px;
-line-height: 96px;
-
-color: #F8722B;
-
-}	*/
-/*.Gamers{
-position: absolute;
-width: 605px;
-height: 446px;
-left: 738px;
-top: 2854px;
-
-background: url(Gamers-playing-on-laptop-_-Photo-Fredrick-Tendong-.png);
-
-}*/
 .wwdbox{
 position: absolute;
 width: 462px;
@@ -409,38 +362,6 @@ line-height: 96px;
 color: #F8722B;
 
 }
-/*.text6{
-	position: absolute;
-width: 564px;
-height: 216px;
-left: 101px;
-top: 2815px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-text-transform: lowercase;
-
-color: #FFFFFF;
-}
-.text7{
-	position: absolute;
-width: 564px;
-height: 216px;
-left: 101px;
-top: 3035px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-text-transform: lowercase;
-
-color: #FFFFFF;
-}*/
 
 .team1{
 
@@ -1055,7 +976,7 @@ color: #FFFFFF;
 	position: absolute;
 width: 1085px;
 height: 154.02px;
-left: 215px;
+left: 185px;
 top: 5810px;
 
 /*background: #F8722B;
@@ -1078,7 +999,7 @@ border-radius: 24px;
 height: 198px;
 left: 1026px;
 right: 144px;
-top: 6000px;
+top:5850px;
 
 font-family: Poppins;
 font-style: normal;
@@ -1099,7 +1020,7 @@ color: #FFFFFF;
 height: 200px;
 left: 1026px;
 right: 144px;
-top: 6066px;
+top: 5980px;
 
 font-family: Poppins;
 font-style: normal;
@@ -1116,9 +1037,9 @@ color: #FFFFFF;
 .ctus{
 position: absolute;
 height: 140px;
-left: 523px;
+left: 543px;
 right: 482px;
-top: 6050px;
+top: 5950px;
 
 font-family: Poppins;
 font-style: normal;
@@ -1137,9 +1058,9 @@ color: #FFFFFF;
 .ctn{
 position: absolute;
 height: 140px;
-left: 523px;
+left: 543px;
 right: 482px;
-top: 6106px;
+top: 6019px;
 
 font-family: Poppins;
 font-style: normal;
@@ -1159,8 +1080,8 @@ color: #FFFFFF;
 	position: absolute;
 width: 231px;
 height: 36px;
-left: 170px;
-top: 6053px;
+left: 180px;
+top: 5968px;
 
 font-family: Poppins;
 font-style: normal;
@@ -1180,7 +1101,20 @@ position: absolute;
 width: 103px;
 height: 35.17px;
 left: 226px;
-top: 6131.11px;
+top: 6067px;
+outline: none;
+border: none;
+color: #F8722B;
+}
+.insta{
+	position: absolute;
+width: 103px;
+height: 35.17px;
+left: 296px;
+top: 6067px;
+outline: none;
+border: none;
+color:#F8722B;
 }
 
 .line{
@@ -1188,8 +1122,9 @@ top: 6131.11px;
 width: 1184px;
 height: 6px;
 left: 136px;
-top: 6250px;
-
+top: 6150px;
+outline: none;
+border: none;
 background: #F8722B;
 }
 .copy{
@@ -1197,12 +1132,12 @@ background: #F8722B;
 width: 208px;
 height: 27px;
 left: 617px;
-top: 6280px;
+top: 6160px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 26px;
 line-height: 27px;
 /* identical to box height */
 
@@ -1211,7 +1146,6 @@ text-transform: capitalize;
 color: #F8722B;
 
 }
-
 .query{
 
 
@@ -1220,30 +1154,85 @@ width: 366px;
 height: 30px;
 left: 258px;
 top: 5774px;
-
+border: none;
+outline: none;
 background: #FFFFFF;
 border: 1px solid #F8722B;
 box-sizing: border-box;
+font-family: Poppins;
 }
+.query:focus + .ycn{
+	display: none;
 
+}
+.query:valid + .ycn{
+	display: none;
+}
+.ycn{
+	position: absolute;
+height: 16px;
+left: 265px;
+top: 5775px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: 0.15px;
+
+
+color: rgba(0, 0, 0, 0.6);
+}
 .query1{
 	position: absolute;
 width: 366px;
 height: 74px;
 left: 257px;
 top: 5830px;
-
+outline: none;
+border:none;
 background: #FFFFFF;
 border: 1px solid #F8722B;
 box-sizing: border-box;
+font-family: Poppins;
+font-size: 20px;
 }
+.query1:focus + .hcwh{
+	display: none;
+
+}
+.query1:valid + .hcwh{
+	display: none;
+}
+.hcwh{
+	position: absolute;
+height: 16px;
+left: 265px;
+
+top: 5845px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: 0.15px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+
 
 .submit{
 	position: absolute;
 width: 269px;
 height: 47px;
-left: 869px;
-top: 5804px;
+left: 870px;
+top: 5805px;
 
 background: #F8722B;
 border-radius: 11px;
@@ -1252,14 +1241,14 @@ font-style: normal;
 font-weight: 500;
 font-size: 30px;
 line-height: 45px;
-/* identical to box height */
 border: none;
 text-transform: uppercase;
-
+outline: none;
 color: #FFFFFF;
 
 }
-	
+
+
 .leftarrow{
 	position: absolute;
 width: 62px;
@@ -1575,11 +1564,13 @@ color: #F8722B;
 
 <img src="images/right.png" class="rightarrow">
 
-<img src="images/Vector 4.png" class="Vector">
+						<img src="images/Vector 4.png" class="Vector">
         		 		<img src="images/Rectangle 15.png" class="btm">
         		
-        		 	<input type="text" class="query" placeholder="your contact number">
-        		 	<input type="text"  class="query1"  placeholder="How can we help ? ">
+        		 	<input type="text" class="query" required="required">
+                    <label for="cn" class="ycn">your contact number</label>
+        		 	<input type="text"  class="query1"   required="required">
+                    <label for="help" class="hcwh">How can we help ?</label>
         		 	<input type="submit" value="submit" class="submit">
 
         		 
@@ -1613,23 +1604,19 @@ color: #F8722B;
 
         		<div class="social">
         			<p id="sh">Our Social Handles </p><br>
-        			<img src="images/Group 12.png" class="Group12">
-       
+        			<a href="https://www.youtube.com/channel/UCobR1OUqKo7rpd7lTx_8tBw" class="Group12"  target="_blank">
+        				<i class="fa fa-3x fa-youtube"> </i>
+        			</a>
+        			<a href="https://www.instagram.com/theknightmobs/?hl=en" class="insta" target="_blank">
+        				<i class="fa fa-3x fa-instagram"> </i>
+        			</a>
         		</div>
 
-        		<img src="images/Rectangle 18.png" class="line">
-        		<img src="images/copyright.png" class="copy">
-
-        		<!-- <script type="text/javascript">
-        			function togglebar(){
-        				document.getElementById('sidebar').classList.toggle('active');
-        			}
-        		</script> -->
-        	<!-- 	<script type="text/javascript">
-        			function Function(x) {
-  					x.classList.toggle("dismenu");
-					}
-        		</script> -->
+        		<div >
+	<hr class="line">
+	<p class="copy">&copy;TheKnightMobs2020</p>
+</div>
+        		
         		<script>
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
