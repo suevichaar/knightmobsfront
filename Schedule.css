@@ -1,5 +1,7 @@
+
+
 body{
-			
+			max-width: 90%;
 			position: absolute;
 			width: 1400px;
 			height: 4000px;
@@ -34,14 +36,6 @@ body{
 			opacity: 0.85;
 		}
 		
-	/*.navbar li a:hover,
-    .navbar li a.active {
-        text-decoration: underline solid #F8722B;
-        text-decoration-style: solid;
-		transition: 0.5s;        
-        color: #F8722B;
-
-    }*/
 	.Home{
     
 position: absolute;
@@ -94,7 +88,7 @@ transition: width;
 transition-duration: 0.2s;
 		}
 		.bottombar:hover{
-			width: 90px;
+			width: 120px;
 			left: 50px;
 		}
 
@@ -116,7 +110,7 @@ transition-duration: 0.2s;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .overlay-content {
@@ -1282,7 +1276,7 @@ top: 3285px;
 	position: absolute;
 width: 1132px;
 height: 220px;
-right: 113px;
+left:153px;
 top: 3185px;
 box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.05);
 border-radius: 24px;
@@ -1396,8 +1390,28 @@ color: #FFFFFF;
 position: absolute;
 width: 103px;
 height: 35.17px;
-left: 226px;
-top: 3580px;
+left: 206px;
+color:  #F8722B;
+top: 3573.11px;
+transition: all linear;
+transition-duration:0.5s;  
+}
+.Group12:hover i{
+	transform: scaleX(1.2);
+}
+.insta{
+
+position: absolute;
+width: 103px;
+height: 35.17px;
+left: 266px;
+color:  #F8722B;
+top: 3573.11px;
+transition: all linear;
+transition-duration:0.5s; 
+}
+.insta:hover i{
+	transform: scaleX(1.2);
 }
 
 .line{
@@ -1405,21 +1419,22 @@ top: 3580px;
 width: 1184px;
 height: 6px;
 left: 136px;
-top: 3664px;
-
+top: 3704px;
+border:none;
+outline: none; 
 background: #F8722B;
 }
 .copy{
 	position: absolute;
 width: 208px;
 height: 27px;
-left: 617px;
-top: 3723px;
+left:597px;
+top: 3733px;
 
 font-family: Poppins;
 font-style: normal;
-font-weight: 500;
-font-size: 18px;
+font-weight:600;
+font-size: 24px;
 line-height: 27px;
 /* identical to box height */
 
@@ -1428,6 +1443,7 @@ text-transform: capitalize;
 color: #F8722B;
 
 }
+
 .query{
 
 

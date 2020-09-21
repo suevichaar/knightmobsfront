@@ -589,8 +589,28 @@ color: #FFFFFF;
 position: absolute;
 width: 103px;
 height: 35.17px;
-left: 226px;
-top:2810px;
+left: 206px;
+color:  #F8722B;
+top: 2793.11px;
+transition: all linear;
+transition-duration:0.5s;  
+}
+.Group12:hover i{
+  transform: scaleX(1.2);
+}
+.insta{
+
+position: absolute;
+width: 103px;
+height: 35.17px;
+left: 266px;
+color:  #F8722B;
+top: 2793.11px;
+transition: all linear;
+transition-duration:0.5s; 
+}
+.insta:hover i{
+  transform: scaleX(1.2);
 }
 
 .line{
@@ -598,21 +618,22 @@ top:2810px;
 width: 1184px;
 height: 6px;
 left: 136px;
-top: 2924px;
-
+top:2930px;
+border:none;
+outline: none; 
 background: #F8722B;
 }
 .copy{
   position: absolute;
 width: 208px;
 height: 27px;
-left: 617px;
-top: 2954px;
+left:597px;
+top:2950px;
 
 font-family: Poppins;
 font-style: normal;
-font-weight: 500;
-font-size: 18px;
+font-weight:600;
+font-size: 24px;
 line-height: 27px;
 /* identical to box height */
 
@@ -628,7 +649,7 @@ position: absolute;
 width: 366px;
 height: 30px;
 left: 238px;
-top:2465px;
+top:2475px;
 border: none;
 outline: none;
 background: #FFFFFF;
@@ -648,8 +669,8 @@ font-family: Poppins;
 height: 16px;
 left: 248px;
 /*right: 895px;*/
-top: 2470px;
-width: 400px;
+top: 2475px;
+width: 200px;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
